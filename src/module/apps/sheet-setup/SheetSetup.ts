@@ -102,7 +102,7 @@ export class SheetSetup extends FormApplication<any, any, ActorFate> {
             return JSON.parse(item.dataset.entity);
         });
 
-        await this.actor.createOwnedItem(itemData);
+        await this.actor.createEmbeddedDocuments("Item", itemData);
         this.render(true);
     }
 
