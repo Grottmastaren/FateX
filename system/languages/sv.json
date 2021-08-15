@@ -119,7 +119,7 @@
                 "Description": "Beskrivning",
                 "DescriptionHelp": "Lång beskrivning för detta tillägg",
                 "ShortDescription": "Kort beskrivning",
-                "ShortDescriptionHelp": "Lång beskrivning för detta tillägg"
+                "ShortDescriptionHelp": "Kort beskrivning för detta tillägg"
             },
             "Automation": {
                 "Headline": "Automatisering",
